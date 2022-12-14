@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Playfair+Display:ital@1&family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.13rem;
+  background-color: hsl(185deg, 75%, 39%);
+}
+
+.top-bg {
+  position: absolute;
+  background: url("../images/bg-pattern-top.svg");
+  background-repeat: no-repeat;
+  height: 61.13rem;
+  width: 61.13rem;
+  top: -20rem;
+  left: -5rem;
+}
+
+.bottom-bg {
+  position: absolute;
+  background: url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  height: 61.13rem;
+  width: 61.13rem;
+  bottom: -25rem;
+  right: -7rem;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .card {
+  position: fixed;
+  display: flex;
+  justify-self: start;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  height: 376px;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+}
+main .card .bubbles-img {
+  width: 100%;
+  height: 142px;
+  background: url("../images/bg-pattern-card.svg");
+  border-radius: 10px 10px 0 0;
+}
+main .card .profile-pic {
+  position: absolute;
+  top: 90px;
+  z-index: 2;
+}
+main .card .profile-pic img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+main .card .profile-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+main .card .profile-info h3 {
+  font-size: 20px;
+  margin-bottom: -13px;
+}
+main .card .profile-info h3 span {
+  font-weight: 700;
+  margin-left: 10px;
+  color: hsl(0deg, 0%, 59%);
+}
+main .card .profile-info p {
+  color: hsl(0deg, 0%, 59%);
+}
+main .card .stats {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid hsl(0deg, 0%, 59%);
+}
+main .card .stats .stat {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+main .card .stats .stat h3 {
+  margin-bottom: -5px;
+}
+main .card .stats .stat p {
+  color: hsl(227deg, 10%, 46%);
+  font-size: 11px;
+  letter-spacing: 2px;
+}/*# sourceMappingURL=styles.css.map */
